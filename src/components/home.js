@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./navbar";
 import BannerBackground from "../assets/home-banner-background.png";
 import BannerImage from "../assets/home-banner-image.png";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -6,7 +7,7 @@ import { IoIosArrowDropright } from "react-icons/io";
 const Home = () => {
     return (
         <div className="home-container">
-            
+            <Navbar />
             <div className="home-banner-container">
                 <div className="home-bannerImg-container">
                     <img src={BannerBackground} alt="" />
