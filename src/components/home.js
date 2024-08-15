@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home-container">
             <Navbar />
             <div className="home-banner-container">
-                <div className="home-bannerImg-container">
+                <div className="home-bannerImage-container">
                     <img src={BannerBackground} alt="" />
                 </div>
                 <div className="home-text-section">
